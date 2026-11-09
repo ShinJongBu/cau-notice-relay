@@ -1,0 +1,295 @@
+# 중앙대 공지 중계
+# 매일 에너지시스템공학부·중앙대 홈페이지 공지 목록을 받아 data/ 폴더에 저장합니다.
+# Claude의 '학교 공지 주간 브리핑' 예약 작업이 data/notices.json 을 읽습니다.
+name: notice-relay
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # 매일 18:17 (한국 시간). GitHub 사정으로 조금 늦어질 수 있음
+  workflow_dispatch:        # Actions 탭에서 'Run workflow'로 수동 실행
+  push:
+    paths:
+      - ".github/workflows/notice-relay.yml"   # 이 파일을 저장(커밋)하면 바로 한 번 실행
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notice-relay
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 공지 가져오기
+        id: fetch
+        continue-on-error: true
+        run: |
+          python3 - <<'PY'
+          #!/usr/bin/env python3
+          """중앙대 공지 중계.
+
+          에너지시스템공학부(WordPress, http 전용)와 중앙대 홈페이지 공지(CAU Notice)의
+          최근 공지를 받아 data/notices.json, data/latest.md 로 저장한다.
+          표준 라이브러리만 사용한다.
+          """
+          import email.utils
+          import html
+          import json
+          import os
+          import re
+          import sys
+          import time
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timedelta, timezone
+
+          KST = timezone(timedelta(hours=9))
+          UA = "Mozilla/5.0 (compatible; cau-notice-relay/1.0; personal weekly notice digest)"
+          OUT_DIR = os.environ.get("NOTICE_OUT_DIR", "data")
+          DETAIL_DAYS = 10      # 최근 N일 안의 글만 본문까지 받는다
+          BODY_LIMIT = 1000     # 본문 텍스트 최대 글자 수
+          ALT_LIMIT = 1000      # 이미지 alt 텍스트 최대 글자 수 (본문이 이미지인 공지 대비)
+
+          ESE_NAME = "에너지시스템공학부 공지사항"
+          ESE_BOARD = "http://cauese.co.kr/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/?term=4"
+          ESE_API = ("http://cauese.co.kr/wp-json/wp/v2/posts?categories=4&per_page=30"
+                     "&_fields=id,date,date_gmt,link,title,content,categories")
+          ESE_CATS = "http://cauese.co.kr/wp-json/wp/v2/categories?per_page=50&_fields=id,name"
+          ESE_FEED = "http://cauese.co.kr/category/%ea%b3%b5%ec%a7%80%ec%82%ac%ed%95%ad/feed/"
+
+          CAU_NAME = "중앙대 홈페이지 공지사항"
+          CAU_BOARD = "https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=100"
+          CAU_LIST = ("https://www.cau.ac.kr/ajax/FR_SVC/BBSViewList2.do?pageNo=1&pagePerCnt=40&MENU_ID=100"
+                      "&SITE_NO=2&BOARD_SEQ=4&S_CATE_SEQ=&BOARD_TYPE=C0301&BOARD_CATEGORY_NO=&P_TAB_NO="
+                      "&TAB_NO=&P_CATE_SEQ=&CATE_SEQ=&SEARCH_FLD=SUBJECT&SEARCH=")
+          CAU_DETAIL = ("https://www.cau.ac.kr/ajax/FR_SVC/BoardViewData.do?MENU_ID=100&SITE_NO=2"
+                        "&BOARD_SEQ=4&BBS_SEQ={seq}&CONTENTS_NO=1&pageNo=1")
+          CAU_VIEW = ("https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1"
+                      "&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ={seq}")
+
+
+          def fetch(url, timeout=30):
+              """GET 요청. 실패하면 2번 더 시도한다."""
+              req = urllib.request.Request(url, headers={
+                  "User-Agent": UA,
+                  "Accept": "application/json, application/rss+xml, text/xml, text/html;q=0.8",
+              })
+              last = None
+              for attempt in range(3):
+                  try:
+                      with urllib.request.urlopen(req, timeout=timeout) as r:
+                          charset = r.headers.get_content_charset() or "utf-8"
+                          return r.read().decode(charset, "replace")
+                  except Exception as e:  # noqa: BLE001
+                      last = e
+                      if attempt < 2:
+                          time.sleep(3 * (attempt + 1))
+              raise last
+
+
+          def _clean(s):
+              s = re.sub(r"[ \t ​]+", " ", s)
+              s = re.sub(r" *\n[ \n]*", "\n", s)
+              return s.strip()
+
+
+          def _cut(s, n):
+              return s if len(s) <= n else s[:n] + "…"
+
+
+          def html_to_text(raw):
+              """HTML 본문을 텍스트로. 이미지 alt에 들어 있는 공지 내용도 따로 붙인다."""
+              if not raw:
+                  return ""
+              alts = [html.unescape(a).strip() for a in re.findall(r'<img[^>]*?\balt="([^"]*)"', raw, flags=re.I)]
+              alts = [a for a in alts if len(a) > 5]
+              s = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", raw)
+              s = re.sub(r"(?i)<br\s*/?>|</p>|</div>|</li>|</tr>|</h\d>", "\n", s)
+              s = re.sub(r"<[^>]+>", " ", s)
+              body = _cut(_clean(html.unescape(s)), BODY_LIMIT)
+              if alts:
+                  alt_text = _cut(_clean(" / ".join(alts)), ALT_LIMIT)
+                  body = (body + "\n" if body else "") + "[이미지 속 텍스트] " + alt_text
+              return body
+
+
+          def strip_tags(s):
+              return _clean(html.unescape(re.sub(r"<[^>]+>", "", s or "")))
+
+
+          # ---------- 에너지시스템공학부 (WordPress) ----------
+
+          def _ese_from_api():
+              cats = {}
+              try:
+                  cats = {c["id"]: c["name"] for c in json.loads(fetch(ESE_CATS))}
+              except Exception:  # noqa: BLE001  (분류 이름은 없어도 된다)
+                  pass
+              posts = json.loads(fetch(ESE_API))
+              if not isinstance(posts, list):
+                  raise ValueError("wp-json 응답이 목록이 아님")
+              items = []
+              for p in posts:
+                  if p.get("date_gmt"):
+                      dt = datetime.fromisoformat(p["date_gmt"]).replace(tzinfo=timezone.utc).astimezone(KST)
+                  else:
+                      dt = datetime.fromisoformat(p["date"]).replace(tzinfo=KST)
+                  items.append({
+                      "id": p.get("id"),
+                      "date": dt.strftime("%Y-%m-%d"),
+                      "datetime": dt.strftime("%Y-%m-%d %H:%M"),
+                      "title": strip_tags(p.get("title", {}).get("rendered", "")),
+                      "link": p.get("link"),
+                      "categories": [cats.get(c, str(c)) for c in p.get("categories", [])],
+                      "text": html_to_text(p.get("content", {}).get("rendered", "")),
+                  })
+              return items
+
+
+          def _ese_from_feed():
+              root = ET.fromstring(fetch(ESE_FEED).encode("utf-8"))
+              ns_content = "{http://purl.org/rss/1.0/modules/content/}encoded"
+              items = []
+              for it in root.iter("item"):
+                  dt = email.utils.parsedate_to_datetime(it.findtext("pubDate")).astimezone(KST)
+                  items.append({
+                      "id": it.findtext("guid"),
+                      "date": dt.strftime("%Y-%m-%d"),
+                      "datetime": dt.strftime("%Y-%m-%d %H:%M"),
+                      "title": strip_tags(it.findtext("title")),
+                      "link": it.findtext("link"),
+                      "categories": [c.text for c in it.findall("category") if c.text],
+                      "text": html_to_text(it.findtext(ns_content) or it.findtext("description") or ""),
+                  })
+              return items
+
+
+          def get_ese(now):
+              try:
+                  return _ese_from_api(), "wp-json"
+              except Exception as api_err:  # noqa: BLE001
+                  try:
+                      return _ese_from_feed(), f"rss (wp-json 실패: {type(api_err).__name__})"
+                  except Exception as feed_err:  # noqa: BLE001
+                      raise RuntimeError(f"wp-json: {api_err!r} / rss: {feed_err!r}") from feed_err
+
+
+          # ---------- 중앙대 홈페이지 공지 ----------
+
+          def get_cau(now):
+              data = json.loads(fetch(CAU_LIST))["data"]["list"]
+              cutoff = (now - timedelta(days=DETAIL_DAYS)).date()
+              items = []
+              for x in data:
+                  seq = x.get("BBS_SEQ")
+                  date = (x.get("WRITE_DATE") or "").replace(".", "-")
+                  item = {
+                      "id": seq,
+                      "date": date,
+                      "datetime": (x.get("WRITE_DT") or "")[:16],
+                      "title": strip_tags(x.get("SUBJECT")),
+                      "dept": x.get("WRITER_NM"),
+                      "campus": x.get("CATEGORY_NM"),     # 통합/서울/다빈치/외부
+                      "type": x.get("CATEGORY_NM1"),      # 학사/모집/장학/행사/일반/추천채용 등
+                      "link": CAU_VIEW.format(seq=seq),
+                      "external_link": x.get("LINK_URL") if x.get("LINK_URL_YN") == "Y" else None,
+                      "files": x.get("FILE_CNT") or 0,
+                      "text": None,
+                  }
+                  try:
+                      recent = datetime.strptime(date, "%Y-%m-%d").date() >= cutoff
+                  except ValueError:
+                      recent = False
+                  if recent and item["campus"] != "다빈치":
+                      try:
+                          det = json.loads(fetch(CAU_DETAIL.format(seq=seq)))["data"]
+                          item["text"] = html_to_text(det.get("CONTENTS", ""))
+                      except Exception as e:  # noqa: BLE001
+                          item["text_error"] = f"{type(e).__name__}: {e}"[:200]
+                      time.sleep(1)  # 서버 부담을 줄이기 위해 요청 간격을 둔다
+                  items.append(item)
+              return items, "ajax-json"
+
+
+          # ---------- 출력 ----------
+
+          def write_markdown(out, path):
+              lines = [f"# 중앙대 공지 중계 — {out['fetched_at']} 기준", ""]
+              for src in out["sources"].values():
+                  state = "정상" if src["ok"] else f"실패 ({src['error']})"
+                  lines += [f"## {src['name']} — {state}", f"게시판: {src['board_url']}", ""]
+                  for it in src["items"][:30]:
+                      tag = " · ".join(t for t in [it.get("campus"), it.get("type")] if t)
+                      if not tag:
+                          tag = " · ".join(it.get("categories") or [])
+                      lines.append(f"- {it['date']} [{tag}] [{it['title']}]({it['link']})")
+                  lines.append("")
+              with open(path, "w", encoding="utf-8") as f:
+                  f.write("\n".join(lines))
+
+
+          def main():
+              now = datetime.now(KST)
+              os.makedirs(OUT_DIR, exist_ok=True)
+              json_path = os.path.join(OUT_DIR, "notices.json")
+              prev = {}
+              if os.path.exists(json_path):
+                  try:
+                      with open(json_path, encoding="utf-8") as f:
+                          prev = json.load(f)
+                  except Exception:  # noqa: BLE001
+                      prev = {}
+
+              fetched_at = now.isoformat(timespec="seconds")
+              out = {
+                  "fetched_at": fetched_at,
+                  "note": "date/datetime은 한국 시간(KST). text는 본문 앞부분과 이미지 alt 텍스트.",
+                  "sources": {},
+              }
+              failed = []
+              for key, name, board, fn in [("ese", ESE_NAME, ESE_BOARD, get_ese),
+                                           ("cau", CAU_NAME, CAU_BOARD, get_cau)]:
+                  src = {"name": name, "board_url": board}
+                  try:
+                      items, method = fn(now)
+                      src.update(ok=True, method=method, error=None, last_success=fetched_at, items=items)
+                  except Exception as e:  # noqa: BLE001
+                      old = prev.get("sources", {}).get(key, {})
+                      src.update(ok=False, method=None, error=f"{type(e).__name__}: {e}"[:300],
+                                 last_success=old.get("last_success"), items=old.get("items", []))
+                      failed.append(name)
+                  out["sources"][key] = src
+                  print(f"{name}: {'OK' if src['ok'] else 'FAIL'} ({len(src['items'])}건) {src['error'] or ''}")
+
+              with open(json_path, "w", encoding="utf-8") as f:
+                  json.dump(out, f, ensure_ascii=False, indent=1)
+              write_markdown(out, os.path.join(OUT_DIR, "latest.md"))
+
+              if failed:
+                  print("실패한 게시판: " + ", ".join(failed), file=sys.stderr)
+                  sys.exit(1)  # Actions 실행을 실패로 표시해서 GitHub 알림 메일이 가게 한다
+
+
+          if __name__ == "__main__":
+              main()
+          PY
+
+      - name: 결과 저장(커밋)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git commit -m "공지 갱신 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')" || echo "변경 없음"
+          git pull --rebase --autostash || true
+          git push
+
+      - name: 가져오기 실패 시 실행을 실패로 표시
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "일부 게시판을 가져오지 못했습니다. data/notices.json 의 error 항목을 확인하세요."
+          exit 1
