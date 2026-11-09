@@ -1,4 +1,4 @@
-# 중앙대 공지 중계 — 2026-11-09T13:45:53+09:00 기준
+# 중앙대 공지 중계 — 2026-11-09T19:10:17+09:00 기준
 
 ## 에너지시스템공학부 공지사항 — 정상
 게시판: http://cauese.co.kr/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/?term=4
@@ -37,6 +37,8 @@
 ## 중앙대 홈페이지 공지사항 — 정상
 게시판: https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=100
 
+- 2026-11-09 [다빈치 · 일반] [[학생생활상담센터(다빈치)] '2026학년도 e-Class 예방교육' 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=29709)
+- 2026-11-09 [통합 · 학사] [2026-2학기 재학생 분할등록(4차) 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30322)
 - 2026-11-09 [통합 · 일반] [[디지털교육지원센터] 2026학년도 디지털배지 체험 이벤트 개최 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30321)
 - 2026-11-09 [통합 · 모집] [한국청소년재단 사랑의 몰래산타 대작전 산타봉사단 모집 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30320)
 - 2026-11-09 [통합 · 일반] [2026학년도 학생성장진단 및 Neo-다빈치 핵심역량진단 참여 이벤트 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30319)
@@ -65,5 +67,3 @@
 - 2026-10-28 [통합 · 행사] [[중앙대학교] 차세대반도체학과 2차 특강 'Technology Principles and Evolution of NAND Flash in the Data-Centric Era - 연세대학교'](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30292)
 - 2026-10-28 [외부 · 장학] [2026학년도 하반기 인석장학회 장학생 선발 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30291)
 - 2026-10-28 [통합 · 학사] [2026-2 취득학점 포기제도 신청 공지](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30290)
-- 2026-10-27 [서울 · 모집] [2026년 중앙대학교 서울캠퍼스 행정인턴 상시채용 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30287)
-- 2026-10-27 [통합 · 모집] [2027학년도 전기 행정대학원 석사학위과정 신입생 모집 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30288)

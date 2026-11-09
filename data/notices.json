@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-09T13:45:53+09:00",
+ "fetched_at": "2026-11-09T19:10:17+09:00",
  "note": "date/datetime은 한국 시간(KST). text는 본문 앞부분과 이미지 alt 텍스트.",
  "sources": {
   "ese": {
@@ -8,7 +8,7 @@
    "ok": true,
    "method": "wp-json",
    "error": null,
-   "last_success": "2026-11-09T13:45:53+09:00",
+   "last_success": "2026-11-09T19:10:17+09:00",
    "items": [
     {
      "id": 12536,
@@ -354,8 +354,34 @@
    "ok": true,
    "method": "ajax-json",
    "error": null,
-   "last_success": "2026-11-09T13:45:53+09:00",
+   "last_success": "2026-11-09T19:10:17+09:00",
    "items": [
+    {
+     "id": 29709,
+     "date": "2026-11-09",
+     "datetime": "2026-11-09 16:00",
+     "title": "[학생생활상담센터(다빈치)] '2026학년도 e-Class 예방교육' 안내",
+     "dept": "관리자",
+     "campus": "다빈치",
+     "type": "일반",
+     "link": "https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=29709",
+     "external_link": null,
+     "files": 0,
+     "text": null
+    },
+    {
+     "id": 30322,
+     "date": "2026-11-09",
+     "datetime": "2026-11-09 14:59",
+     "title": "2026-2학기 재학생 분할등록(4차) 안내",
+     "dept": "관리자",
+     "campus": "통합",
+     "type": "학사",
+     "link": "https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30322",
+     "external_link": null,
+     "files": 0,
+     "text": "2026-2 학기 등록금 납부 안내\n1. 등록기간\n가 . 분할납부\n구분\n일정\n비고\n분할납부 신청기간\n마감\n중앙대 포탈 신청\n( 신청서 제출 필요없음 )\n분할납부 고지서 출력\n차수별 등록기간과 동일\n중앙대 포탈 출력\n( 학사마당 > 등록 > 분할납부고지서 )\n※ 분할납부 신청기간 내 미신청 또는 신청 후 1 차 분납기간 내에 미납할 경우\n→ 분할납부 불가하며 , 등록금 전액을 추가 등록기간 또는 최종 등록기간에 납부하여야 합니다 .\n분할납부 등록 기간\n1 차 : 마감\n등록금액 실납부액의 25%\n2 차 : 마감\n등록금액 실납부액의 25%\n3 차 : 마감\n등록금액 실납부액의 25%\n4차 : 11.9.(월) ~ 11.13.(금) 각 일자별 9시 ~ 21시\n잔여등록금 전액\n※ 1차 분할납부의 경우, 한국장학재단 대출 지침에 따라 등록금 대출이 불가합니다.\n※ 4차 분할납부의 경우, 한국장학재단 대출 실행일정에 따라 등록금 대출이 불가할 수 있으니 본교 일정 및 장학재단 일정을 사전에 반드시 확인하시기 바랍니다.\n2. 납부방법\n■ 모든 금융기관을 이용한 개인별 등록금 입금계좌로 입금\n( 타행이체 , 인터넷뱅킹 , 텔레뱅킹 , ATM 기 이체 , 우리은행 신용카드 등 )\n※ 단 , 증권연결계좌 , CMA 통장 등 일부계좌에서 등록금 입금계좌로 송금이 불가\n은행으로 방문하여 납부할 경우 반드시 무통장입금증을 수령\n※ 개인별 등록금 입금계좌란 ?\n가 . 등록금 수납을 위한 입금전용 가상계좌로 예금주는 학생 본인명의로 되어있으며 , 1 회에 한하여 입금 가능 . ( 계좌이체 방법으로 납부 시 반드시 일일 이체한도 확인요망 )\n나 . 입금 방법 : 2 가지 금액 중 선택 가능 ( 고지서에 표기되어 있는 2 가지 금액 중 선택하여 납부 )\n① 등록금고지서 실납부금액 ( 필수 )\n② 등록금고지서 실납부금액 + 본인 선택 기타납입금\n3. 등록금 실납부금액이 “0” 원인 전액장학생의 등록절차\n■ 기타납입금을 납부하는 경우 : 기타납입금 납부 시 , 등록처리 완료\n■ 기타납입금을 납부하지…"
+    },
     {
      "id": 30321,
      "date": "2026-11-09",
@@ -848,32 +874,6 @@
      "link": "https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30262",
      "external_link": null,
      "files": 2,
-     "text": null
-    },
-    {
-     "id": 30261,
-     "date": "2026-10-19",
-     "datetime": "2026-10-19 10:11",
-     "title": "[교수학습개발센터] AI 특강(실습, 2차) 안내",
-     "dept": "관리자",
-     "campus": "통합",
-     "type": "모집",
-     "link": "https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30261",
-     "external_link": null,
-     "files": 0,
-     "text": null
-    },
-    {
-     "id": 30244,
-     "date": "2026-10-16",
-     "datetime": "2026-10-16 00:00",
-     "title": "2026학년도 2학기 면접특강 및 모의면접 프로그램: 10/26(월)~",
-     "dept": "인재개발센터",
-     "campus": "통합",
-     "type": "모집",
-     "link": "https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30244",
-     "external_link": null,
-     "files": 0,
      "text": null
     }
    ]
