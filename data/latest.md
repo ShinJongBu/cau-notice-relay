@@ -1,4 +1,4 @@
-# 중앙대 공지 중계 — 2026-11-10T19:03:47+09:00 기준
+# 중앙대 공지 중계 — 2026-11-11T19:10:07+09:00 기준
 
 ## 에너지시스템공학부 공지사항 — 정상
 게시판: http://cauese.co.kr/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/?term=4
@@ -37,6 +37,11 @@
 ## 중앙대 홈페이지 공지사항 — 정상
 게시판: https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=100
 
+- 2026-11-11 [서울 · 행사] [2026학년도 2학기 CAU Global Fair 축제 홍보](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30332)
+- 2026-11-11 [통합 · 행사] [[중앙대학교] 차세대반도체학과 설명회(11/23) 개최 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30331)
+- 2026-11-11 [통합 · 장학] [2026학년도 2학기 국가장학금(Ⅰ유형) 및 중앙사랑 장학금 지급기준 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30330)
+- 2026-11-11 [다빈치 · 모집] [[사회봉사단(다빈치)] 2026학년도 동계 제34기 대학생 재능봉사 캠프 멘토 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30329)
+- 2026-11-11 [외부 · 장학] [2026년 한국마사회/한국농어촌희망재단 아동돌봄 지원 참여 대학생 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30328)
 - 2026-11-10 [통합 · 행사] [2026년 하반기 캠퍼스리크루팅 운영 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30093)
 - 2026-11-10 [통합 · 모집] [2026학년도 2학기 금융권 직무특화교육 프로그램:11/02(월)~](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30276)
 - 2026-11-10 [통합 · 행사] [[학사팀] 2026학년도 융복합전공 만족도조사](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30327)
@@ -62,8 +67,3 @@
 - 2026-11-02 [통합 · 모집] [중앙대학교 공식 홍보대사 '중앙사랑 35기' 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30306)
 - 2026-11-02 [외부 · 장학] [학자금 중복지원, 미리 확인하고 예방하세요!](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30305)
 - 2026-11-02 [통합 · 학사] [2026학년도 동계 계절학기 시행 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30304)
-- 2026-11-02 [통합 · 모집] [중앙대학교 인권센터 2026 인권지기 선정 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30303)
-- 2026-10-30 [서울 · 행사] [2026학년도 11월 건강센터 (서울) 행사 안내 캘린더](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30302)
-- 2026-10-30 [다빈치 · 행사] [2026학년도 11월 건강센터 (다빈치) 행사 안내 캘린더](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30301)
-- 2026-10-30 [다빈치 · 장학] [(다빈치) 2026학년도 동계방학 국가근로장학금 희망근로지 신청 안내(교내/교외/집중근로)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30300)
-- 2026-10-30 [서울 · 장학] [(서울) 2026학년도 동계방학 국가근로장학금 희망근로지 신청 안내(교내외/집중근로)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30299)
