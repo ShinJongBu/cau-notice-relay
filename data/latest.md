@@ -1,4 +1,4 @@
-# 중앙대 공지 중계 — 2026-11-12T19:14:30+09:00 기준
+# 중앙대 공지 중계 — 2026-11-13T19:10:46+09:00 기준
 
 ## 에너지시스템공학부 공지사항 — 정상
 게시판: http://cauese.co.kr/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/?term=4
@@ -37,6 +37,7 @@
 ## 중앙대 홈페이지 공지사항 — 정상
 게시판: https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=100
 
+- 2026-11-13 [서울 · 모집] [[사회봉사단] 2026학년도 동계 제34기 대학생 재능봉사 캠프 멘토 모집 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30336)
 - 2026-11-12 [통합 · 행사] [2026년 하반기 캠퍼스리크루팅 운영 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30093)
 - 2026-11-12 [통합 · 모집] [2026학년도 생성형 AI X CAU e-Advisor 활용 사례 공모전](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30335)
 - 2026-11-12 [서울 · 행사] [2026학년도 2학기 CAU Global Fair 개최 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30332)
@@ -66,4 +67,3 @@
 - 2026-11-03 [통합 · 모집] [2026학년도 취업역량 강화를 위한 오프라인 오픽(OPIc) 특강: 11/16(월) 15시 (★오픽노잼 Sam Park 강사 초빙)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30293)
 - 2026-11-03 [외부 · 장학] [2027학년도 관정재단 장학생 선발 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30308)
 - 2026-11-02 [통합 · 모집] [중앙대학교 공식 홍보대사 '중앙사랑 35기' 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30306)
-- 2026-11-02 [외부 · 장학] [학자금 중복지원, 미리 확인하고 예방하세요!](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30305)
