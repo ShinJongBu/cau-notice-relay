@@ -1,8 +1,11 @@
-# 중앙대 공지 중계 — 2026-11-15T18:56:47+09:00 기준
+# 중앙대 공지 중계 — 2026-11-16T19:46:01+09:00 기준
 
 ## 에너지시스템공학부 공지사항 — 정상
 게시판: http://cauese.co.kr/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/?term=4
 
+- 2026-11-16 [공지사항] [2026년도 서울 캠퍼스타운 (THE-CC기반) 기술 창업 촉진 프로그램 모집 홍보](http://cauese.co.kr/2026%eb%85%84%eb%8f%84-%ec%84%9c%ec%9a%b8-%ec%ba%a0%ed%8d%bc%ec%8a%a4%ed%83%80%ec%9a%b4-the-cc%ea%b8%b0%eb%b0%98-%ea%b8%b0%ec%88%a0-%ec%b0%bd%ec%97%85-%ec%b4%89%ec%a7%84-%ed%94%84%eb%a1%9c%ea%b7%b8/)
+- 2026-11-16 [공지사항] [[한국원자력협력재단]제12회 2026 원자력해외명사 웨비나 안내](http://cauese.co.kr/%ed%95%9c%ea%b5%ad%ec%9b%90%ec%9e%90%eb%a0%a5%ed%98%91%eb%a0%a5%ec%9e%ac%eb%8b%a8%ec%a0%9c12%ed%9a%8c-2026-%ec%9b%90%ec%9e%90%eb%a0%a5%ed%95%b4%ec%99%b8%eb%aa%85%ec%82%ac-%ec%9b%a8%eb%b9%84%eb%82%98/)
+- 2026-11-16 [공지사항] [2026 중앙대학교 CAU 공학학술제 안내](http://cauese.co.kr/2026-%ec%a4%91%ec%95%99%eb%8c%80%ed%95%99%ea%b5%90-cau-%ea%b3%b5%ed%95%99%ed%95%99%ec%88%a0%ec%a0%9c-%ec%95%88%eb%82%b4/)
 - 2026-11-10 [공지사항] [[대학혁신지원사업] 2026학년도 ‘디지털 배지 체험 이벤트’ 안내](http://cauese.co.kr/%eb%8c%80%ed%95%99%ed%98%81%ec%8b%a0%ec%a7%80%ec%9b%90%ec%82%ac%ec%97%85-2026%ed%95%99%eb%85%84%eb%8f%84-%eb%94%94%ec%a7%80%ed%84%b8-%eb%b0%b0%ec%a7%80-%ec%b2%b4%ed%97%98-%ec%9d%b4%eb%b2%a4/)
 - 2026-11-09 [공지사항] [2026년 4분기 대학 안전사고 예방 안내](http://cauese.co.kr/2026%eb%85%84-4%eb%b6%84%ea%b8%b0-%eb%8c%80%ed%95%99-%ec%95%88%ec%a0%84%ec%82%ac%ea%b3%a0-%ec%98%88%eb%b0%a9-%ec%95%88%eb%82%b4/)
 - 2026-11-03 [공지사항] [[한국원자력협력재단]2026년 연구로 실험실습 프로그램 참가자 모집 안내](http://cauese.co.kr/%ed%95%9c%ea%b5%ad%ec%9b%90%ec%9e%90%eb%a0%a5%ed%98%91%eb%a0%a5%ec%9e%ac%eb%8b%a82026%eb%85%84-%ec%97%b0%ea%b5%ac%eb%a1%9c-%ec%8b%a4%ed%97%98%ec%8b%a4%ec%8a%b5-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8/)
@@ -30,13 +33,16 @@
 - 2026-09-15 [공지사항 · 중요공지] [2026학년도 2학기 중간시험 공정관리 지침, 이클래스 운영가이드 및 부정행위자 처분 공고 안내](http://cauese.co.kr/2026%ed%95%99%eb%85%84%eb%8f%84-2%ed%95%99%ea%b8%b0-%ec%a4%91%ea%b0%84%ec%8b%9c%ed%97%98-%ea%b3%b5%ec%a0%95%ea%b4%80%eb%a6%ac-%ec%a7%80%ec%b9%a8-%ec%9d%b4%ed%81%b4%eb%9e%98%ec%8a%a4-%ec%9a%b4/)
 - 2026-09-15 [공지사항] [2026학년도 2학기 강의 Feedback 실시 안내](http://cauese.co.kr/2026%ed%95%99%eb%85%84%eb%8f%84-2%ed%95%99%ea%b8%b0-%ea%b0%95%ec%9d%98-feedback-%ec%8b%a4%ec%8b%9c-%ec%95%88%eb%82%b4/)
 - 2026-09-14 [공지사항] [2026년 중앙대학교 예술활동증명 안내](http://cauese.co.kr/2026%eb%85%84-%ec%a4%91%ec%95%99%eb%8c%80%ed%95%99%ea%b5%90-%ec%98%88%ec%88%a0%ed%99%9c%eb%8f%99%ec%a6%9d%eb%aa%85-%ec%95%88%eb%82%b4/)
-- 2026-09-10 [공지사항] [주식회사 이온 신입 채용공고 안내](http://cauese.co.kr/%ec%a3%bc%ec%8b%9d%ed%9a%8c%ec%82%ac-%ec%9d%b4%ec%98%a8-%ec%8b%a0%ec%9e%85-%ec%b1%84%ec%9a%a9%ea%b3%b5%ea%b3%a0-%ec%95%88%eb%82%b4/)
-- 2026-09-10 [공지사항] [2026학년도 CAU i-Creator 전공탐색 멘토링 안내](http://cauese.co.kr/2026%ed%95%99%eb%85%84%eb%8f%84-cau-i-creator-%ec%a0%84%ea%b3%b5%ed%83%90%ec%83%89-%eb%a9%98%ed%86%a0%eb%a7%81-%ec%95%88%eb%82%b4/)
-- 2026-09-09 [공지사항] [[K-Culture 융합센터] 영국 University of Oxford 본교 방문 특강 행사 홍보](http://cauese.co.kr/k-culture-%ec%9c%b5%ed%95%a9%ec%84%bc%ed%84%b0-%ec%98%81%ea%b5%ad-university-of-oxford-%eb%b3%b8%ea%b5%90-%eb%b0%a9%eb%ac%b8-%ed%8a%b9%ea%b0%95-%ed%96%89%ec%82%ac-%ed%99%8d%eb%b3%b4/)
 
 ## 중앙대 홈페이지 공지사항 — 정상
 게시판: https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=100
 
+- 2026-11-16 [통합 · 모집] [2027학년도 전반기 커뮤니케이션대학원 신·편입생 추가 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30341)
+- 2026-11-16 [통합 · 모집] [제19기 CAU Global Ambassador 선발 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30340)
+- 2026-11-16 [통합 · 행사] [[중앙대학교] 차세대반도체학과 5차 특강 '전력 반도체(BCD&Discrete) 소자 및 공정 기술 소개 - DB하이텍'](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30339)
+- 2026-11-16 [외부 · 장학] [삼성꿈장학재단 글로벌 희망장학금 장학생 선발 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30338)
+- 2026-11-16 [외부 · 행사] [[총상금 7,000만 원] 「필전 2026 - 조선 백일장」 참가자 모집 (~12/15)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30337)
+- 2026-11-16 [통합 · 모집] [다빈치캠퍼스 행정인턴 채용 공고 / 2학기 취업지원 프로그램](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=28391)
 - 2026-11-13 [서울 · 모집] [[사회봉사단] 2026학년도 동계 제34기 대학생 재능봉사 캠프 멘토 모집 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30336)
 - 2026-11-12 [통합 · 행사] [2026년 하반기 캠퍼스리크루팅 운영 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30093)
 - 2026-11-12 [통합 · 모집] [2026학년도 생성형 AI X CAU e-Advisor 활용 사례 공모전](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30335)
@@ -48,7 +54,6 @@
 - 2026-11-11 [외부 · 장학] [2026년 한국마사회/한국농어촌희망재단 아동돌봄 지원 참여 대학생 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30328)
 - 2026-11-10 [통합 · 모집] [2026학년도 2학기 금융권 직무특화교육 프로그램:11/02(월)~](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30276)
 - 2026-11-10 [통합 · 행사] [[학사팀] 2026학년도 융복합전공 만족도조사](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30327)
-- 2026-11-10 [외부 · 일반] [[각 부문별 50만 원 상당의 스포츠용품 지급] 2027 KUSF 대학스포츠를 대표할 KUSF U-리그 KUSF 클럽챔피언십 슬로건 공모전(~11/15)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30326)
 - 2026-11-10 [외부 · 일반] [[미국 대학 학점 이수 및 수료증 발급] University of Wisconsin-Stout 2027 Winter 글로벌 리더십 프로그램(~11/20)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30325)
 - 2026-11-10 [통합 · 모집] [[대학원생을 위한 1:1 학습/진로상담 프로그램 참여자 모집]](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30323)
 - 2026-11-09 [다빈치 · 일반] [[학생생활상담센터(다빈치)] '2026학년도 e-Class 예방교육' 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=29709)
@@ -62,8 +67,3 @@
 - 2026-11-06 [외부 · 장학] [[한국장학재단] 청년지원정보 통합제공 플랫폼 '통학로' 홍보](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30313)
 - 2026-11-05 [통합 · 행사] [중앙대학교 2028학년도 LEET 무료 특강 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30311)
 - 2026-11-03 [통합 · 모집] [심리서비스대학원 내 심리서비스센터(실습기관)의 상담실습 내담자 경험을 위한 참여자 2차 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30309)
-- 2026-11-03 [통합 · 모집] [2026학년도 취업역량 강화를 위한 오프라인 오픽(OPIc) 특강: 11/16(월) 15시 (★오픽노잼 Sam Park 강사 초빙)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30293)
-- 2026-11-03 [외부 · 장학] [2027학년도 관정재단 장학생 선발 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30308)
-- 2026-11-02 [통합 · 모집] [중앙대학교 공식 홍보대사 '중앙사랑 35기' 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30306)
-- 2026-11-02 [외부 · 장학] [학자금 중복지원, 미리 확인하고 예방하세요!](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30305)
-- 2026-11-02 [통합 · 학사] [2026학년도 동계 계절학기 시행 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30304)
