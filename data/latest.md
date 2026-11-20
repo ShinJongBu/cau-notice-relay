@@ -1,4 +1,4 @@
-# 중앙대 공지 중계 — 2026-11-19T19:19:15+09:00 기준
+# 중앙대 공지 중계 — 2026-11-20T19:17:40+09:00 기준
 
 ## 에너지시스템공학부 공지사항 — 정상
 게시판: http://cauese.co.kr/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/?term=4
@@ -37,6 +37,11 @@
 ## 중앙대 홈페이지 공지사항 — 정상
 게시판: https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=100
 
+- 2026-11-20 [통합 · 행사] [2026학년도 K-MOOC FAIR 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30350)
+- 2026-11-20 [통합 · 장학] [2027학년도 1학기 국가장학금 및 사전장학 1차 신청 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30349)
+- 2026-11-20 [통합 · 모집] [[모집] 2026년 UP Pre TeX-Corps 예비창업탐색팀 모집 안내(~11/26)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30348)
+- 2026-11-20 [통합 · 모집] [[중앙대학교] ICoS 2027 국제학술대회 지원 안내(~11/26)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30347)
+- 2026-11-20 [통합 · 모집] [[중앙대학교] ICEIC 2027 국제학술대회 지원 안내(~12/6)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30346)
 - 2026-11-19 [통합 · 모집] [[중앙대학교 창업지원단] 초광역 캡스톤 창업교류캠프 in 여수 참가학생 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30345)
 - 2026-11-18 [외부 · 장학] [2026학년도 2학기 양천장학회 특별장학금 선발 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30344)
 - 2026-11-18 [통합 · 행사] [창업기업지원 현장소통간담회 개최 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30343)
@@ -50,7 +55,6 @@
 - 2026-11-13 [서울 · 모집] [[사회봉사단] 2026학년도 동계 제34기 대학생 재능봉사 캠프 멘토 모집 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30336)
 - 2026-11-12 [통합 · 행사] [2026년 하반기 캠퍼스리크루팅 운영 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30093)
 - 2026-11-12 [통합 · 모집] [2026학년도 생성형 AI X CAU e-Advisor 활용 사례 공모전](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30335)
-- 2026-11-12 [서울 · 행사] [2026학년도 2학기 CAU Global Fair 개최 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30332)
 - 2026-11-12 [통합 · 모집] [[중앙대학교 예비군연대] 상비예비군 모집 홍보 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30334)
 - 2026-11-11 [통합 · 행사] [[중앙대학교] 차세대반도체학과 설명회(11/23) 개최 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30331)
 - 2026-11-11 [통합 · 장학] [2026학년도 2학기 국가장학금(Ⅰ유형) 및 중앙사랑 장학금 지급기준 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30330)
@@ -63,7 +67,3 @@
 - 2026-11-09 [다빈치 · 일반] [[학생생활상담센터(다빈치)] '2026학년도 e-Class 예방교육' 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=29709)
 - 2026-11-09 [외부 · 모집] [한국청소년재단 사랑의 몰래산타 대작전 산타봉사단 모집 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30320)
 - 2026-11-09 [통합 · 일반] [2026학년도 학생성장진단 및 Neo-다빈치 핵심역량진단 참여 이벤트 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30319)
-- 2026-11-09 [통합 · 행사] [[중앙대학교] 차세대반도체학과 4차 특강 'AI 시대, MLCC의 역할과 기술 발전 방향 - 삼성전기](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30318)
-- 2026-11-09 [통합 · 행사] [[중앙대학교] 차세대반도체학과 3차 특강 'Flash 메모리 기본 동작원리와 기초 공정기술의 이해 및 발전사 - 삼성전자](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30317)
-- 2026-11-06 [외부 · 모집] [2027 국립중앙청소년디딤센터 힐링캠프 멘토단 모집 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30316)
-- 2026-11-06 [외부 · 장학] [[한국장학재단] 청년지원정보 통합제공 플랫폼 '통학로' 홍보](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30313)
