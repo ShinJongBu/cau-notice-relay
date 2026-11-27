@@ -1,4 +1,4 @@
-# 중앙대 공지 중계 — 2026-11-26T19:22:14+09:00 기준
+# 중앙대 공지 중계 — 2026-11-27T19:19:05+09:00 기준
 
 ## 에너지시스템공학부 공지사항 — 정상
 게시판: http://cauese.co.kr/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0/?term=4
@@ -37,6 +37,10 @@
 ## 중앙대 홈페이지 공지사항 — 정상
 게시판: https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=100
 
+- 2026-11-27 [외부 · 장학] [KC미래장학재단 제10기(2027학년도) 장학생 모집 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30375)
+- 2026-11-27 [다빈치 · 행사] [2026학년도 12월 건강센터 (다빈치) 행사 안내 캘린더](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30374)
+- 2026-11-27 [서울 · 행사] [2026학년도 12월 건강센터 (서울) 행사 안내 캘린더](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30373)
+- 2026-11-27 [통합 · 학사] [2026학년도 2학기 강의평가 시행 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30372)
 - 2026-11-26 [통합 · 모집] [「생성형 AI로 만드는 나만의 3D·AR 콘텐츠 제작 클래스」 참가자 모집 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30371)
 - 2026-11-26 [통합 · 모집] [「AI 버추얼 크리에이터 콘텐츠 제작 클래스」 참가자 모집 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30370)
 - 2026-11-26 [통합 · 모집] [Claude 집중 실습 과정 / AICE · ACP 자격증 취득 과정](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=28391)
@@ -55,15 +59,11 @@
 - 2026-11-24 [통합 · 일반] [[교수학습개발센터] 2026학년도 대학원생 핵심역량 진단 안내 (커피쿠폰 증정)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30359)
 - 2026-11-24 [통합 · 행사] [[2026학년도 글로컬 이노베이터 양성 및 운영 프로그램 특강 참여자 모집]](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30358)
 - 2026-11-24 [통합 · 행사] [[교수학습개발센터] 2026 중앙인 역량관리 포트폴리오 공모전 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30357)
-- 2026-11-24 [통합 · 행사] [중앙대학교 대학원 독일유럽학과 공개강연 안내 - 독일·유럽 경제의 현장과 기회](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30356)
 - 2026-11-24 [통합 · 장학] [(통합) 2027학년도 1학기 1차 국가근로장학금 신청 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30355)
 - 2026-11-23 [서울 · 모집] [2027-1학기 경영학부 외국인지원센터 교육조교(중국어·베트남어) 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30354)
 - 2026-11-23 [외부 · 일반] [[외교부 안내] 청년의 안전한 해외진출 ! 외교부 해외안전여행 앱, 영사안전콜센터와 함께하세요 ~](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30352)
 - 2026-11-23 [외부 · 모집] [2026년 12월 각 군 현역병 모집계획](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30351)
-- 2026-11-20 [통합 · 행사] [2026학년도 K-MOOC FAIR 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30350)
 - 2026-11-20 [통합 · 장학] [2027학년도 1학기 국가장학금 및 사전장학 1차 신청 안내](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30349)
-- 2026-11-20 [통합 · 모집] [[모집] 2026년 UP Pre TeX-Corps 예비창업탐색팀 모집 안내(~11/26)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30348)
-- 2026-11-20 [통합 · 모집] [[중앙대학교] ICoS 2027 국제학술대회 지원 안내(~11/26)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30347)
 - 2026-11-20 [통합 · 모집] [[중앙대학교] ICEIC 2027 국제학술대회 지원 안내(~12/6)](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30346)
 - 2026-11-19 [통합 · 모집] [[중앙대학교 창업지원단] 초광역 캡스톤 창업교류캠프 in 여수 참가학생 모집](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30345)
 - 2026-11-18 [외부 · 장학] [2026학년도 2학기 양천장학회 특별장학금 선발 공고](https://www.cau.ac.kr/cms/FR_CON/BoardView.do?MENU_ID=100&CONTENTS_NO=1&SITE_NO=2&BOARD_SEQ=4&BBS_SEQ=30344)
